@@ -1,0 +1,152 @@
+<html>
+
+<head>
+
+<title>claim</title>
+
+<style>
+
+p{
+
+font-size:20px;
+
+}
+
+tr, td{
+    font-size:20px;
+    color: rgb(144, 213, 253);
+    text-shadow: 2px 2px #000000;
+
+}
+
+input[type=text], input[type=date]{
+
+width:300px;
+
+height:40px;
+
+}
+
+input[type="button"]
+
+,input[type="reset"]
+
+{
+
+border:none;
+
+outline:none;
+
+width:100px;
+
+height:30px;
+
+color:#ffff;
+
+font-size:16px;
+
+background:#ff267e;
+
+cursor:pointer;
+
+border-radius:20px;
+
+left:5px;
+
+}
+a:link {
+    color: blanchedalmond;
+    font-size: 20px;
+  text-decoration: none;
+}
+input[type="button"]:hover,input[type="reset"]:hover
+{
+    background:#efed40;
+
+color:#262626;
+
+}
+
+body {
+
+margin: 0;
+
+font-family: Arial;
+
+font-size: 17px;
+
+background-repeat: no-repeat;
+
+background-size: auto;
+
+}
+
+header {
+
+background-image:url("bgnd.jpeg");
+
+height:100vh;
+
+background-size: cover;
+
+background-position:center;
+}
+.button{
+
+background:#efed40;
+
+color:#262626;
+}
+</style>
+
+</head>
+<body>
+
+    <header><br><br>
+    
+    <h1 align="center" style="color:rgb(155, 227, 255); text-shadow: 2px 2px #000000;">CLAIM A BOOK</h1>
+    
+    <script type="text/javascript">
+    
+    function myfunc()
+    
+    {
+    
+    alert("you have successfully claimed for a book");
+    
+    }
+    
+    </script>
+    
+    <form action="details.html">
+    
+    <table style="margin-left:450px; " cellpadding="15px" cellspacing="15px">
+    
+    <tr><td><b>Book ID</b></td>
+    
+    <td><input type="text" style = "border-color: black;"name="bid"> <tr><td><b>Book Name</b></td>
+    
+    <td><input type="text" style = "border-color: black;"name="bname" required></td></tr>
+    
+    <tr><td><b>Regd ID</b></td>
+    
+    <td><input type="text" style = "border-color: black;" name="regid" required></td></tr>
+    
+    <tr><td><b>Issue Date</b></td>
+    
+    <td><input type="date"style = "border-color: black;" name="idate"></td></tr>
+    
+    <tr><td><b>Return Date</b></td>
+    
+    <td><input type="date" style = "border-color: black;"name="rdate"></td></tr>
+    <tr><td><a href="details.html"><input type="button" value="Submit" name="submit" style="margin-left:100px;" onclick="myfunc()" ></a>
+
+    </td><td><a href="books.html"><input type="button" value="Exit"></a></td></tr></table>
+    
+    </form>
+    
+    <center><a href="details.html">Back To Home</a></center>
+    
+    </body>
+    
+    </html>

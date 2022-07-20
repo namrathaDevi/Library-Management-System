@@ -1,0 +1,73 @@
+
+#claimbooks{
+
+top:0px;
+
+font-size:30px;
+
+background-color:#C4A484;
+}
+#returnbooks{
+
+top:150px;
+
+font-size:30px;
+
+background-color:#C4A484;
+
+}
+h1{
+	margin-left: 610px;
+	color: #C4A484;
+	text-shadow: 2px 2px black;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gallery{
+	margin:0px;
+	border:1px solid #ccc;
+	float: left;
+	left:-1px;
+	width: 140px;
+	margin-left:80px;
+	transition: all 0.4s;
+	text-decoration:none;
+}
+.gallery:hover{
+	border:1px solid #777;
+	transition: all 0.4s;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 46px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #C4A484;
+  color: white;
+}
+
+.footer{
+
+padding:20px;
+text-align:center;
+
+background:white;
+}

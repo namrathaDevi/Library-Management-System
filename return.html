@@ -1,0 +1,149 @@
+<html>
+
+<head>
+
+<title>Book Return</title>
+<style>
+
+body {
+    
+margin: 0;
+
+font-family: Arial;
+
+font-size: 17px;
+background-size: auto;
+}
+a:link {
+    color: white;
+    font-size: 20px;
+  text-decoration: none;
+}
+header {
+
+background-image:url("pl.jpg");
+
+height:100vh;
+
+background-size: cover;
+
+background-position:center;
+}
+input::placeholder {
+  color: red;
+  font-size: 1.2em;
+}
+h1
+
+{
+
+color:rgb(245, 216, 163);
+text-shadow: 2px 2px black;
+}
+
+p{
+
+font-size:20px;
+
+}
+
+tr td {
+
+font-size:20px;
+text-shadow: 2px 2px black;
+color:rgb(245, 206, 174);
+
+}
+
+input[type-text], input[type-date]{
+
+width:300px;
+height:40px;
+
+}
+
+input[type="button"], input[type="reset"]
+
+{
+
+border:none;
+
+outline:none;
+
+width:100px;
+
+height:30px;
+
+color:rgb(0, 0, 0);
+
+font-size:16px;
+
+background:#ffbb00;
+
+cursor:pointer;
+
+border-radius:20px;
+
+left:5px;
+
+}
+
+input[type="button"]:hover,input[type="reset"]:hover
+
+{
+
+background:#efed40;
+
+color:#262626;
+
+}
+
+</style>
+
+</head>
+<body>
+
+    <header><br>
+    
+    <br>
+    
+    <h1 align="center">Return A Book<h1>
+    
+    <form action="details.html">
+    
+    <table align="center" cellpadding="15px" cellspacing="15px">
+    
+    <tr><td><b>Book ID</b></td>
+    
+    <td><input type="text" name="bid" required></td></tr>
+    
+    <tr><td><b>Book Name</b></td> <td><input type="text" name="bname" required></td></tr>
+    
+    <tr><td><b>Regd ID</b></td>
+    
+    <td><input type="text" name="regid" required></td></tr>
+    
+    <tr><td><a href="details.html"><input type="button" value="Done" name="submit" onclick="myfunc()" style "margin left:700px;"></a>&nbsp &nbsp
+    
+    &nbsp &nbsp &nbsp
+    
+    </td><td><a href="books.html"><input type="button" value="Exit"></a>
+    
+    </td></tr></table>
+    
+    </form>
+    
+    <script type="text/javascript">
+    
+    function myfunc()
+    {
+    alert("you have successfully returned a book");
+}
+
+</script>
+
+<center><a href="index.html" style="color:white";>Back To Home</a></center>
+
+</body>
+
+</html>
